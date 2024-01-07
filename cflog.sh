@@ -1,3 +1,6 @@
+#This script is writtent to fetch 4xx logs from the arious files downloaded from S3 bucket.
+#As an output this script will provide the file name and the 4xx error logs contained in that file.
+
 #!/bin/bash
 dt=$(date "+%d-%m-%y-%H-%M")
 mkdir MOH_$dt
