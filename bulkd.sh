@@ -1,3 +1,6 @@
+#This script is written to delete the pods with specific status in the given namespace in the cluster.
+
+
 #!/bin/bash
 
 read -p "Namespace: " ns
